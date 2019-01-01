@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" xmlns:intf="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns1="urn:client.wsbudgetfacade" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema targetNamespace="urn:client.wsbudgetfacade" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+   <complexType name="WSInvokeException">
+    <sequence/>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="WSInvokeException">
+
+      <wsdl:part name="fault" type="tns1:WSInvokeException">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="requestBudgetRequest">
+
+      <wsdl:part name="objectValue" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="requestBudgetResponse">
+
+      <wsdl:part name="requestBudgetReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getExpenseTypeListRequest">
+
+      <wsdl:part name="objectValue" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="returnBudgetRequest">
+
+      <wsdl:part name="objectValue" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getBudgetRequest">
+
+      <wsdl:part name="objectValue" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="returnBudgetResponse">
+
+      <wsdl:part name="returnBudgetReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getBudgetResponse">
+
+      <wsdl:part name="getBudgetReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getExpenseTypeListResponse">
+
+      <wsdl:part name="getExpenseTypeListReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="WSWSBudgetFacadeSrvProxy">
+
+      <wsdl:operation name="requestBudget" parameterOrder="objectValue">
+
+         <wsdl:input message="impl:requestBudgetRequest" name="requestBudgetRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:requestBudgetResponse" name="requestBudgetResponse">
+
+       </wsdl:output>
+
+         <wsdl:fault message="impl:WSInvokeException" name="WSInvokeException">
+
+       </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getBudget" parameterOrder="objectValue">
+
+         <wsdl:input message="impl:getBudgetRequest" name="getBudgetRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getBudgetResponse" name="getBudgetResponse">
+
+       </wsdl:output>
+
+         <wsdl:fault message="impl:WSInvokeException" name="WSInvokeException">
+
+       </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="returnBudget" parameterOrder="objectValue">
+
+         <wsdl:input message="impl:returnBudgetRequest" name="returnBudgetRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:returnBudgetResponse" name="returnBudgetResponse">
+
+       </wsdl:output>
+
+         <wsdl:fault message="impl:WSInvokeException" name="WSInvokeException">
+
+       </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getExpenseTypeList" parameterOrder="objectValue">
+
+         <wsdl:input message="impl:getExpenseTypeListRequest" name="getExpenseTypeListRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getExpenseTypeListResponse" name="getExpenseTypeListResponse">
+
+       </wsdl:output>
+
+         <wsdl:fault message="impl:WSInvokeException" name="WSInvokeException">
+
+       </wsdl:fault>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="WSWSBudgetFacadeSoapBinding" type="impl:WSWSBudgetFacadeSrvProxy">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="requestBudget">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="requestBudgetRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://webservice.app.webservice.custom.eas.kingdee.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="requestBudgetResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="WSInvokeException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="WSInvokeException" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getBudget">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getBudgetRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://webservice.app.webservice.custom.eas.kingdee.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getBudgetResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="WSInvokeException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="WSInvokeException" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="returnBudget">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="returnBudgetRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://webservice.app.webservice.custom.eas.kingdee.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="returnBudgetResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="WSInvokeException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="WSInvokeException" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getExpenseTypeList">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getExpenseTypeListRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://webservice.app.webservice.custom.eas.kingdee.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getExpenseTypeListResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="WSInvokeException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="WSInvokeException" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="WSWSBudgetFacadeSrvProxyService">
+
+      <wsdl:port binding="impl:WSWSBudgetFacadeSoapBinding" name="WSWSBudgetFacade">
+
+         <wsdlsoap:address location="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBudgetFacade"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

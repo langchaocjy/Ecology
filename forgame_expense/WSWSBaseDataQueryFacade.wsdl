@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" xmlns:intf="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns1="urn:client.wsbasedataqueryfacade" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema targetNamespace="urn:client.wsbasedataqueryfacade" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+   <complexType name="WSInvokeException">
+    <sequence/>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getPersonListRequest">
+
+      <wsdl:part name="objectValue" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="WSInvokeException">
+
+      <wsdl:part name="fault" type="tns1:WSInvokeException">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getJobListRequest">
+
+      <wsdl:part name="objectValue" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getDepartmentListResponse">
+
+      <wsdl:part name="getDepartmentListReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getJobListResponse">
+
+      <wsdl:part name="getJobListReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getPersonListResponse">
+
+      <wsdl:part name="getPersonListReturn" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getDepartmentListRequest">
+
+      <wsdl:part name="objectValue" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="WSWSBaseDataQueryFacadeSrvProxy">
+
+      <wsdl:operation name="getDepartmentList" parameterOrder="objectValue">
+
+         <wsdl:input message="impl:getDepartmentListRequest" name="getDepartmentListRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getDepartmentListResponse" name="getDepartmentListResponse">
+
+       </wsdl:output>
+
+         <wsdl:fault message="impl:WSInvokeException" name="WSInvokeException">
+
+       </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getPersonList" parameterOrder="objectValue">
+
+         <wsdl:input message="impl:getPersonListRequest" name="getPersonListRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getPersonListResponse" name="getPersonListResponse">
+
+       </wsdl:output>
+
+         <wsdl:fault message="impl:WSInvokeException" name="WSInvokeException">
+
+       </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getJobList" parameterOrder="objectValue">
+
+         <wsdl:input message="impl:getJobListRequest" name="getJobListRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getJobListResponse" name="getJobListResponse">
+
+       </wsdl:output>
+
+         <wsdl:fault message="impl:WSInvokeException" name="WSInvokeException">
+
+       </wsdl:fault>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="WSWSBaseDataQueryFacadeSoapBinding" type="impl:WSWSBaseDataQueryFacadeSrvProxy">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getDepartmentList">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getDepartmentListRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://webservice.app.webservice.custom.eas.kingdee.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getDepartmentListResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="WSInvokeException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="WSInvokeException" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getPersonList">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getPersonListRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://webservice.app.webservice.custom.eas.kingdee.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getPersonListResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="WSInvokeException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="WSInvokeException" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getJobList">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getJobListRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://webservice.app.webservice.custom.eas.kingdee.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getJobListResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="WSInvokeException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="WSInvokeException" namespace="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="WSWSBaseDataQueryFacadeSrvProxyService">
+
+      <wsdl:port binding="impl:WSWSBaseDataQueryFacadeSoapBinding" name="WSWSBaseDataQueryFacade">
+
+         <wsdlsoap:address location="http://oa.home.forgame.com:6999/ormrpc/services/WSWSBaseDataQueryFacade"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

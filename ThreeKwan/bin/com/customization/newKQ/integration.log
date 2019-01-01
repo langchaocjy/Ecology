@@ -1,0 +1,458 @@
+2018-12-29 18:05:07,326 INFO  [Thread:Thread-24] weaver.general.InitServerXMLtoDBThread.checkEndUpgrade() - 升级进行中,sleep...
+2018-12-29 18:05:07,327 INFO  [Thread:Thread-25] weaver.general.InitServerHrmDBThread.checkEndUpgrade() - 升级进行中,sleep...
+2018-12-29 18:05:08,460 INFO  [Thread:Thread-25] weaver.general.InitServerHrmDBThread.run() - 升级完成，执行 InitServerHrmDBThread ...
+2018-12-29 18:05:08,461 INFO  [Thread:Thread-24] weaver.general.InitServerXMLtoDBThread.run() - SQL升级完成，执行 InitServiceXMLtoDB ...
+2018-12-29 18:05:08,557 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:05:08,639 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:05:08,719 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (INITSERVICEXMLSTATE.E8CLEAR) exist
+2018-12-29 18:05:08,766 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:05:08,821 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (INITSERVICEXMLSTATE.SMS) exist
+2018-12-29 18:05:08,858 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:05:08,867 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (INITSERVICEXMLSTATE.CHECKERRORDATA) exist
+2018-12-29 18:05:08,890 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:05:08,908 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (INITSERVICEXMLSTATE.XMLINITTODB) exist
+2018-12-29 18:05:08,937 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(DATASOURCESETTING) exist
+2018-12-29 18:05:08,963 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(schedulesetting) exist
+2018-12-29 18:05:08,986 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(smspropertis) exist
+2018-12-29 18:05:09,036 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(actionsettingdetail) exist
+2018-12-29 18:05:09,044 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (actionsettingdetail.isdatasource) exist
+2018-12-29 18:05:09,069 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(datashowset) exist
+2018-12-29 18:05:09,079 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (datashowset.searchByName) exist
+2018-12-29 18:05:09,089 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (datashowset.customid) exist
+2018-12-29 18:05:09,113 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:05:09,204 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.createdate) exist
+2018-12-29 18:05:09,229 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:05:09,235 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.createtime) exist
+2018-12-29 18:05:09,259 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:05:09,265 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.modifydate) exist
+2018-12-29 18:05:09,290 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:05:09,308 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.modifytime) exist
+2018-12-29 18:05:09,334 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:05:09,343 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.runstatus) exist
+2018-12-29 18:05:09,366 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(datasourcesetting) exist
+2018-12-29 18:05:09,377 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (datasourcesetting.usepool) exist
+2018-12-29 18:05:09,384 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (datasourcesetting.sortid) exist
+2018-12-29 18:05:09,388 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 开始初始化缓存......
+2018-12-29 18:05:09,388 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - System Init Message:mainControlIp= localIp:[192.168.0.236]
+2018-12-29 18:05:09,388 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化计划任务缓存Start ......
+2018-12-29 18:05:09,419 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - schedule.Datasource属性加入缓存异常(OA)：java.lang.NoSuchFieldException: OA
+2018-12-29 18:05:09,425 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化数据源缓存 ......
+2018-12-29 18:05:09,438 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化数据源成功： KQJ
+2018-12-29 18:05:09,438 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化数据源成功： oa
+2018-12-29 18:05:09,438 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化Action缓存 ......
+2018-12-29 18:05:09,448 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeApprovalDisagree)
+2018-12-29 18:05:09,448 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeApprovalAgree)
+2018-12-29 18:05:09,449 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeSetValueAction)
+2018-12-29 18:05:09,449 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeApprovalDisagree)
+2018-12-29 18:05:09,449 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeApprovalAgree)
+2018-12-29 18:05:09,449 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeSetValueAction)
+2018-12-29 18:05:09,453 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowToDoc)
+2018-12-29 18:05:09,457 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(PrjGenerateAction)
+2018-12-29 18:05:09,458 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(PrjApproveAction)
+2018-12-29 18:05:09,607 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(PrjTemplateApproveAction)
+2018-12-29 18:05:09,612 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptApplyAction)
+2018-12-29 18:05:09,635 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptFetchAction)
+2018-12-29 18:05:09,639 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptMoveAction)
+2018-12-29 18:05:09,641 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptLossAction)
+2018-12-29 18:05:09,646 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptDiscardAction)
+2018-12-29 18:05:09,648 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptLendAction)
+2018-12-29 18:05:09,653 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptBackAction)
+2018-12-29 18:05:09,659 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptMendAction)
+2018-12-29 18:05:09,671 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowToMode)
+2018-12-29 18:05:09,723 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(deduction)
+2018-12-29 18:05:09,724 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(freeze)
+2018-12-29 18:05:09,725 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(release)
+2018-12-29 18:05:09,727 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceEntrant)
+2018-12-29 18:05:09,728 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceTry)
+2018-12-29 18:05:09,729 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceHire)
+2018-12-29 18:05:09,731 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceExtend)
+2018-12-29 18:05:09,736 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceRedeploy)
+2018-12-29 18:05:09,773 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceDismiss)
+2018-12-29 18:05:09,778 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceRetire)
+2018-12-29 18:05:09,779 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceFire)
+2018-12-29 18:05:09,782 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceReHire)
+2018-12-29 18:05:09,846 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmScheduleShift)
+2018-12-29 18:05:09,847 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmPaidLeaveAction)
+2018-12-29 18:05:09,863 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CreateTraceDocument)
+2018-12-29 18:05:09,879 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowFnaInWorkflowNew)
+2018-12-29 18:05:09,924 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowFnaEffectNew)
+2018-12-29 18:05:09,925 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowFnaRejectNew)
+2018-12-29 18:05:09,925 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowEffectNew)
+2018-12-29 18:05:09,926 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowFreezeNew)
+2018-12-29 18:05:09,927 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowReleaseFreezeNew)
+2018-12-29 18:05:09,927 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowReleaseNew)
+2018-12-29 18:05:09,928 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowReverseNew)
+2018-12-29 18:05:09,929 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaChangeFreezeNew)
+2018-12-29 18:05:09,929 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaChangeEffectNew)
+2018-12-29 18:05:09,930 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaChangeRejectNew)
+2018-12-29 18:05:09,931 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaShareFreezeNew)
+2018-12-29 18:05:09,939 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaShareEffectNew)
+2018-12-29 18:05:09,939 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaShareRejectNew)
+2018-12-29 18:05:09,940 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceEffectNew)
+2018-12-29 18:05:09,941 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceFreezeNew)
+2018-12-29 18:05:09,942 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceReleaseFreezeNew)
+2018-12-29 18:05:09,944 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceReleaseNew)
+2018-12-29 18:05:09,950 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceReverseNew)
+2018-12-29 18:05:09,955 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WFMeetingAction)
+2018-12-29 18:05:09,964 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptApplyAction)
+2018-12-29 18:05:09,976 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptFetchAction)
+2018-12-29 18:05:09,981 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptMoveAction)
+2018-12-29 18:05:09,992 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptLossAction)
+2018-12-29 18:05:10,002 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptDiscardAction)
+2018-12-29 18:05:10,015 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptLendAction)
+2018-12-29 18:05:10,017 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptBackAction)
+2018-12-29 18:05:10,025 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptMendAction)
+2018-12-29 18:05:10,035 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptFrozenumAction)
+2018-12-29 18:05:10,037 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptReleasenumAction)
+2018-12-29 18:05:10,038 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化浏览框缓存 ......
+2018-12-29 18:05:10,119 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化HR缓存 ......
+2018-12-29 18:05:10,142 INFO  [Thread:Thread-24] weaver.servicefiles.BrowserXML.<init>() - BrowserXML init start ....
+2018-12-29 18:05:10,149 INFO  [Thread:Thread-24] weaver.servicefiles.BrowserXML.<init>() - BrowserXML init end ....
+2018-12-29 18:05:10,155 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化缓存结束......
+2018-12-29 18:05:10,373 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.deleteEML）
+2018-12-29 18:05:10,442 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.deleteEML）
+2018-12-29 18:05:10,442 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.AutoCountApplyNumTask）
+2018-12-29 18:05:10,443 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.AutoCountApplyNumTask）
+2018-12-29 18:05:10,443 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.Mode4CptCalculateDeprecationJob）
+2018-12-29 18:05:10,444 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.Mode4CptCalculateDeprecationJob）
+2018-12-29 18:05:10,444 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.CptLowInventoryRemindJob）
+2018-12-29 18:05:10,444 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.CptLowInventoryRemindJob）
+2018-12-29 18:05:10,444 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.Mode4CptDulldaysInventoryRemindJob）
+2018-12-29 18:05:10,445 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.Mode4CptDulldaysInventoryRemindJob）
+2018-12-29 18:05:10,445 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.Mode4CptHighInventoryRemindJob）
+2018-12-29 18:05:10,455 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.Mode4CptHighInventoryRemindJob）
+2018-12-29 18:05:10,455 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.Mode4CptLowInventoryRemindJob）
+2018-12-29 18:05:10,456 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.Mode4CptLowInventoryRemindJob）
+2018-12-29 18:05:10,456 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.HrmScheduleSignImport）
+2018-12-29 18:05:10,456 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.HrmScheduleSignImport）
+2018-12-29 18:05:10,456 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.KQJ）
+2018-12-29 18:05:10,457 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.KQJ）
+2018-12-29 18:05:10,457 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.shanghaitest）
+2018-12-29 18:05:10,457 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.shanghaitest）
+2018-12-29 18:05:10,457 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.nianjiajisuan）
+2018-12-29 18:05:10,458 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.nianjiajisuan）
+2018-12-29 18:05:10,458 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.QuartzTestJob_first）
+2018-12-29 18:05:10,458 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.QuartzTestJob_first）
+2018-12-29 18:05:10,458 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.CronJob_1）
+2018-12-29 18:05:10,459 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.CronJob_1）
+2018-12-29 18:10:00,070 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.execute() - =============================run com.customization.newKQ.CronJob_1 job...
+2018-12-29 18:10:00,297 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.execute() - 总条数 : 213393  页数：213
+2018-12-29 18:10:00,298 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.execute() - begrow : 1 endrow:1000
+2018-12-29 18:11:49,754 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.Allcomp() - ******************************异常关闭了考勤机conn连接*************************************************
+2018-12-29 18:11:49,757 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.execute() - begrow : 1 endrow:999
+2018-12-29 18:13:35,358 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.Allcomp() - ******************************异常关闭了考勤机conn连接*************************************************
+2018-12-29 18:13:35,361 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.execute() - begrow : 1 endrow:999
+2018-12-29 18:14:00,122 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - =============================run com.customization.QuartzTestJob job...
+2018-12-29 18:14:00,123 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 14 426 15
+2018-12-29 18:14:00,124 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =14
+2018-12-29 18:14:00,125 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型2 2018-10-15  15:58  2018-10-19  15:58
+2018-12-29 18:14:00,125 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181015 15:58-20181019 15:58' where xm='426' and bm='15' and rq='2018-10-15'
+2018-12-29 18:14:00,127 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181015 15:58-20181019 15:58' where xm='426' and bm='15' and rq='2018-10-16'
+2018-12-29 18:14:00,130 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181015 15:58-20181019 15:58' where xm='426' and bm='15' and rq='2018-10-17'
+2018-12-29 18:14:00,132 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181015 15:58-20181019 15:58' where xm='426' and bm='15' and rq='2018-10-18'
+2018-12-29 18:14:00,135 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,135 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =14
+2018-12-29 18:14:00,135 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,135 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =14
+2018-12-29 18:14:00,135 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,136 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =14
+2018-12-29 18:14:00,136 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,136 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 15 425 15
+2018-12-29 18:14:00,136 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =15
+2018-12-29 18:14:00,136 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型1 2018-10-16  16:50  2018-10-19  16:50
+2018-12-29 18:14:00,136 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='病假20181016 16:50-20181019 16:50' where xm='425' and bm='15' and rq='2018-10-16'
+2018-12-29 18:14:00,139 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='病假20181016 16:50-20181019 16:50' where xm='425' and bm='15' and rq='2018-10-17'
+2018-12-29 18:14:00,141 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='病假20181016 16:50-20181019 16:50' where xm='425' and bm='15' and rq='2018-10-18'
+2018-12-29 18:14:00,143 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,143 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =15
+2018-12-29 18:14:00,144 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,144 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =15
+2018-12-29 18:14:00,144 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型 2018-10-12    2018-10-16  
+2018-12-29 18:14:00,144 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set wcjl='20181012 -20181016 ' where xm='425' and bm='15' and rq='2018-10-12'
+2018-12-29 18:14:00,146 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set wcjl='20181012 -20181016 ' where xm='425' and bm='15' and rq='2018-10-13'
+2018-12-29 18:14:00,149 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set wcjl='20181012 -20181016 ' where xm='425' and bm='15' and rq='2018-10-14'
+2018-12-29 18:14:00,151 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set wcjl='20181012 -20181016 ' where xm='425' and bm='15' and rq='2018-10-15'
+2018-12-29 18:14:00,154 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,154 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =15
+2018-12-29 18:14:00,154 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,154 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 16 425 15
+2018-12-29 18:14:00,154 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =16
+2018-12-29 18:14:00,155 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型0 2018-10-09  10:50  2018-10-15  10:50
+2018-12-29 18:14:00,155 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181009 10:50-20181015 10:50' where xm='425' and bm='15' and rq='2018-10-09'
+2018-12-29 18:14:00,157 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181009 10:50-20181015 10:50' where xm='425' and bm='15' and rq='2018-10-10'
+2018-12-29 18:14:00,160 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181009 10:50-20181015 10:50' where xm='425' and bm='15' and rq='2018-10-11'
+2018-12-29 18:14:00,162 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181009 10:50-20181015 10:50' where xm='425' and bm='15' and rq='2018-10-12'
+2018-12-29 18:14:00,166 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181009 10:50-20181015 10:50' where xm='425' and bm='15' and rq='2018-10-13'
+2018-12-29 18:14:00,168 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181009 10:50-20181015 10:50' where xm='425' and bm='15' and rq='2018-10-14'
+2018-12-29 18:14:00,171 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型4 2018-10-29  10:50  2018-11-02  10:50
+2018-12-29 18:14:00,171 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='丧假20181029 10:50-20181102 10:50' where xm='425' and bm='15' and rq='2018-10-29'
+2018-12-29 18:14:00,173 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='丧假20181029 10:50-20181102 10:50' where xm='425' and bm='15' and rq='2018-10-30'
+2018-12-29 18:14:00,175 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='丧假20181029 10:50-20181102 10:50' where xm='425' and bm='15' and rq='2018-10-31'
+2018-12-29 18:14:00,178 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='丧假20181029 10:50-20181102 10:50' where xm='425' and bm='15' and rq='2018-11-01'
+2018-12-29 18:14:00,180 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,180 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =16
+2018-12-29 18:14:00,180 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,180 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =16
+2018-12-29 18:14:00,181 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,181 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =16
+2018-12-29 18:14:00,181 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,181 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 17 425 15
+2018-12-29 18:14:00,182 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =17
+2018-12-29 18:14:00,183 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型5 2018-11-05  11:30  2018-11-07  11:30
+2018-12-29 18:14:00,183 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产检假20181105 11:30-20181107 11:30' where xm='425' and bm='15' and rq='2018-11-05'
+2018-12-29 18:14:00,186 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产检假20181105 11:30-20181107 11:30' where xm='425' and bm='15' and rq='2018-11-06'
+2018-12-29 18:14:00,188 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型6 2018-11-08  11:30  2018-11-13  11:30
+2018-12-29 18:14:00,188 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产假20181108 11:30-20181113 11:30' where xm='425' and bm='15' and rq='2018-11-08'
+2018-12-29 18:14:00,190 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产假20181108 11:30-20181113 11:30' where xm='425' and bm='15' and rq='2018-11-09'
+2018-12-29 18:14:00,193 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产假20181108 11:30-20181113 11:30' where xm='425' and bm='15' and rq='2018-11-10'
+2018-12-29 18:14:00,195 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产假20181108 11:30-20181113 11:30' where xm='425' and bm='15' and rq='2018-11-11'
+2018-12-29 18:14:00,197 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产假20181108 11:30-20181113 11:30' where xm='425' and bm='15' and rq='2018-11-12'
+2018-12-29 18:14:00,200 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型3 2018-11-19  11:30  2018-11-21  11:30
+2018-12-29 18:14:00,200 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='婚假20181119 11:30-20181121 11:30' where xm='425' and bm='15' and rq='2018-11-19'
+2018-12-29 18:14:00,202 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='婚假20181119 11:30-20181121 11:30' where xm='425' and bm='15' and rq='2018-11-20'
+2018-12-29 18:14:00,206 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,206 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =17
+2018-12-29 18:14:00,206 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,206 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =17
+2018-12-29 18:14:00,206 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,206 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =17
+2018-12-29 18:14:00,207 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,207 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 18 67 17
+2018-12-29 18:14:00,207 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =18
+2018-12-29 18:14:00,207 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型0 2018-11-02  12:18  2018-11-05  12:18
+2018-12-29 18:14:00,207 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181102 12:18-20181105 12:18' where xm='67' and bm='17' and rq='2018-11-02'
+2018-12-29 18:14:00,210 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181102 12:18-20181105 12:18' where xm='67' and bm='17' and rq='2018-11-03'
+2018-12-29 18:14:00,212 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181102 12:18-20181105 12:18' where xm='67' and bm='17' and rq='2018-11-04'
+2018-12-29 18:14:00,214 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型1 2018-11-06  12:18  2018-11-08  12:18
+2018-12-29 18:14:00,214 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='病假20181106 12:18-20181108 12:18' where xm='67' and bm='17' and rq='2018-11-06'
+2018-12-29 18:14:00,217 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='病假20181106 12:18-20181108 12:18' where xm='67' and bm='17' and rq='2018-11-07'
+2018-12-29 18:14:00,219 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型2 2018-11-09  12:18  2018-11-14  12:18
+2018-12-29 18:14:00,219 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181109 12:18-20181114 12:18' where xm='67' and bm='17' and rq='2018-11-09'
+2018-12-29 18:14:00,222 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181109 12:18-20181114 12:18' where xm='67' and bm='17' and rq='2018-11-10'
+2018-12-29 18:14:00,224 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181109 12:18-20181114 12:18' where xm='67' and bm='17' and rq='2018-11-11'
+2018-12-29 18:14:00,226 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181109 12:18-20181114 12:18' where xm='67' and bm='17' and rq='2018-11-12'
+2018-12-29 18:14:00,229 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='年休假20181109 12:18-20181114 12:18' where xm='67' and bm='17' and rq='2018-11-13'
+2018-12-29 18:14:00,231 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型3 2018-11-19  12:18  2018-11-22  12:18
+2018-12-29 18:14:00,231 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='婚假20181119 12:18-20181122 12:18' where xm='67' and bm='17' and rq='2018-11-19'
+2018-12-29 18:14:00,234 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='婚假20181119 12:18-20181122 12:18' where xm='67' and bm='17' and rq='2018-11-20'
+2018-12-29 18:14:00,236 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='婚假20181119 12:18-20181122 12:18' where xm='67' and bm='17' and rq='2018-11-21'
+2018-12-29 18:14:00,239 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,239 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =18
+2018-12-29 18:14:00,239 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,239 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =18
+2018-12-29 18:14:00,239 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,239 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =18
+2018-12-29 18:14:00,240 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,240 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 19 67 17
+2018-12-29 18:14:00,240 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =19
+2018-12-29 18:14:00,240 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型4 2018-11-26  12:23  2018-11-27  12:23
+2018-12-29 18:14:00,240 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='丧假20181126 12:23-20181127 12:23' where xm='67' and bm='17' and rq='2018-11-26'
+2018-12-29 18:14:00,243 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型5 2018-11-27  12:23  2018-11-30  12:23
+2018-12-29 18:14:00,243 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产检假20181127 12:23-20181130 12:23' where xm='67' and bm='17' and rq='2018-11-27'
+2018-12-29 18:14:00,247 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产检假20181127 12:23-20181130 12:23' where xm='67' and bm='17' and rq='2018-11-28'
+2018-12-29 18:14:00,249 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产检假20181127 12:23-20181130 12:23' where xm='67' and bm='17' and rq='2018-11-29'
+2018-12-29 18:14:00,252 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,252 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =19
+2018-12-29 18:14:00,252 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,252 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =19
+2018-12-29 18:14:00,252 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,252 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =19
+2018-12-29 18:14:00,252 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,252 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 20 67 17
+2018-12-29 18:14:00,253 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =20
+2018-12-29 18:14:00,253 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型6 2018-11-28  12:44  2018-11-30  12:44
+2018-12-29 18:14:00,253 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产假20181128 12:44-20181130 12:44' where xm='67' and bm='17' and rq='2018-11-28'
+2018-12-29 18:14:00,255 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='产假20181128 12:44-20181130 12:44' where xm='67' and bm='17' and rq='2018-11-29'
+2018-12-29 18:14:00,257 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,257 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =20
+2018-12-29 18:14:00,258 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,258 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =20
+2018-12-29 18:14:00,258 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,258 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =20
+2018-12-29 18:14:00,258 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,259 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 21 67 17
+2018-12-29 18:14:00,259 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =21
+2018-12-29 18:14:00,260 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,260 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =21
+2018-12-29 18:14:00,260 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型 2018-11-02  13:29  2018-11-05  13:29
+2018-12-29 18:14:00,260 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set ccjl='20181102 13:29-20181105 13:29' where xm='67' and bm='17' and rq='2018-11-02'
+2018-12-29 18:14:00,263 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set ccjl='20181102 13:29-20181105 13:29' where xm='67' and bm='17' and rq='2018-11-03'
+2018-12-29 18:14:00,265 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set ccjl='20181102 13:29-20181105 13:29' where xm='67' and bm='17' and rq='2018-11-04'
+2018-12-29 18:14:00,267 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,267 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =21
+2018-12-29 18:14:00,268 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型 2018-11-02    2018-11-02  
+2018-12-29 18:14:00,268 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set wcjl='20181102 -20181102 ' where xm='67' and bm='17' and rq='2018-11-02'
+2018-12-29 18:14:00,270 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,270 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =21
+2018-12-29 18:14:00,270 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型       
+2018-12-29 18:14:00,270 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型       
+2018-12-29 18:14:00,270 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,270 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - uf_kqxg的数据： 22 67 17
+2018-12-29 18:14:00,270 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt1 where mainid =22
+2018-12-29 18:14:00,271 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [搜索时间-->]:休假类型0 2018-11-12  11:53  2018-11-16  11:53
+2018-12-29 18:14:00,271 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181112 11:53-20181116 11:53' where xm='67' and bm='17' and rq='2018-11-12'
+2018-12-29 18:14:00,273 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181112 11:53-20181116 11:53' where xm='67' and bm='17' and rq='2018-11-13'
+2018-12-29 18:14:00,275 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181112 11:53-20181116 11:53' where xm='67' and bm='17' and rq='2018-11-14'
+2018-12-29 18:14:00,278 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - 【sql2-->】update uf_kqsj set qjjl='事假20181112 11:53-20181116 11:53' where xm='67' and bm='17' and rq='2018-11-15'
+2018-12-29 18:14:00,280 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 1---true
+2018-12-29 18:14:00,280 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt2 where mainid =22
+2018-12-29 18:14:00,280 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 2---true
+2018-12-29 18:14:00,280 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt3 where mainid =22
+2018-12-29 18:14:00,281 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 3---true
+2018-12-29 18:14:00,281 ERROR [Thread:DefaultQuartzScheduler_Worker-3] com.customization.AllUtil.ScreenAndUpdate() - [sql1-->]select * from uf_kqxg_dt4 where mainid =22
+2018-12-29 18:14:00,281 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - 4---true
+2018-12-29 18:14:00,281 INFO  [Thread:DefaultQuartzScheduler_Worker-3] com.customization.QuartzTestJob.execute() - =============================jieshu com.customization.QuartzTestJob job...
+2018-12-29 18:15:00,100 INFO  [Thread:DefaultQuartzScheduler_Worker-5] com.customization.newKQ.CronJob_1.execute() - =============================run com.customization.newKQ.CronJob_1 job...
+2018-12-29 18:15:00,151 INFO  [Thread:DefaultQuartzScheduler_Worker-5] com.customization.newKQ.CronJob_1.execute() - 总条数 : 213402  页数：213
+2018-12-29 18:15:00,151 INFO  [Thread:DefaultQuartzScheduler_Worker-5] com.customization.newKQ.CronJob_1.execute() - begrow : 1 endrow:1000
+2018-12-29 18:15:39,361 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.Allcomp() - ******************************异常关闭了考勤机conn连接*************************************************
+2018-12-29 18:15:39,365 INFO  [Thread:DefaultQuartzScheduler_Worker-2] com.customization.newKQ.CronJob_1.execute() - begrow : 1 endrow:999
+2018-12-29 18:17:17,138 INFO  [Thread:Thread-24] weaver.general.InitServerXMLtoDBThread.checkEndUpgrade() - 升级进行中,sleep...
+2018-12-29 18:17:17,138 INFO  [Thread:Thread-25] weaver.general.InitServerHrmDBThread.checkEndUpgrade() - 升级进行中,sleep...
+2018-12-29 18:17:18,205 INFO  [Thread:Thread-25] weaver.general.InitServerHrmDBThread.run() - 升级完成，执行 InitServerHrmDBThread ...
+2018-12-29 18:17:18,205 INFO  [Thread:Thread-24] weaver.general.InitServerXMLtoDBThread.run() - SQL升级完成，执行 InitServiceXMLtoDB ...
+2018-12-29 18:17:18,345 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:17:18,397 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:17:18,470 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (INITSERVICEXMLSTATE.E8CLEAR) exist
+2018-12-29 18:17:18,523 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:17:18,531 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (INITSERVICEXMLSTATE.SMS) exist
+2018-12-29 18:17:18,561 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:17:18,584 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (INITSERVICEXMLSTATE.CHECKERRORDATA) exist
+2018-12-29 18:17:18,616 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(INITSERVICEXMLSTATE) exist
+2018-12-29 18:17:18,649 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (INITSERVICEXMLSTATE.XMLINITTODB) exist
+2018-12-29 18:17:18,686 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(DATASOURCESETTING) exist
+2018-12-29 18:17:18,707 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(schedulesetting) exist
+2018-12-29 18:17:18,744 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(smspropertis) exist
+2018-12-29 18:17:18,779 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(actionsettingdetail) exist
+2018-12-29 18:17:18,834 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (actionsettingdetail.isdatasource) exist
+2018-12-29 18:17:18,878 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(datashowset) exist
+2018-12-29 18:17:18,887 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (datashowset.searchByName) exist
+2018-12-29 18:17:18,895 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (datashowset.customid) exist
+2018-12-29 18:17:18,943 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:17:18,951 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.createdate) exist
+2018-12-29 18:17:18,975 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:17:18,984 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.createtime) exist
+2018-12-29 18:17:19,018 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:17:19,027 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.modifydate) exist
+2018-12-29 18:17:19,051 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:17:19,061 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.modifytime) exist
+2018-12-29 18:17:19,099 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(SCHEDULESETTING) exist
+2018-12-29 18:17:19,113 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (SCHEDULESETTING.runstatus) exist
+2018-12-29 18:17:19,140 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistTable() - table(datasourcesetting) exist
+2018-12-29 18:17:19,152 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (datasourcesetting.usepool) exist
+2018-12-29 18:17:19,170 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.notExistField() - filed (datasourcesetting.sortid) exist
+2018-12-29 18:17:19,173 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 开始初始化缓存......
+2018-12-29 18:17:19,174 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - System Init Message:mainControlIp= localIp:[192.168.0.236]
+2018-12-29 18:17:19,174 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化计划任务缓存Start ......
+2018-12-29 18:17:19,189 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - schedule.Datasource属性加入缓存异常(OA)：java.lang.NoSuchFieldException: OA
+2018-12-29 18:17:19,196 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化数据源缓存 ......
+2018-12-29 18:17:19,264 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化数据源成功： KQJ
+2018-12-29 18:17:19,305 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化数据源成功： oa
+2018-12-29 18:17:19,305 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化Action缓存 ......
+2018-12-29 18:17:19,310 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeApprovalDisagree)
+2018-12-29 18:17:19,311 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeApprovalAgree)
+2018-12-29 18:17:19,311 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeSetValueAction)
+2018-12-29 18:17:19,311 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeApprovalDisagree)
+2018-12-29 18:17:19,311 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeApprovalAgree)
+2018-12-29 18:17:19,311 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(ExchangeSetValueAction)
+2018-12-29 18:17:19,324 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowToDoc)
+2018-12-29 18:17:19,339 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(PrjGenerateAction)
+2018-12-29 18:17:19,346 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(PrjApproveAction)
+2018-12-29 18:17:19,347 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(PrjTemplateApproveAction)
+2018-12-29 18:17:19,362 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptApplyAction)
+2018-12-29 18:17:19,365 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptFetchAction)
+2018-12-29 18:17:19,376 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptMoveAction)
+2018-12-29 18:17:19,380 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptLossAction)
+2018-12-29 18:17:19,392 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptDiscardAction)
+2018-12-29 18:17:19,401 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptLendAction)
+2018-12-29 18:17:19,413 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptBackAction)
+2018-12-29 18:17:19,414 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CptMendAction)
+2018-12-29 18:17:19,579 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowToMode)
+2018-12-29 18:17:19,627 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(deduction)
+2018-12-29 18:17:19,646 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(freeze)
+2018-12-29 18:17:19,647 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(release)
+2018-12-29 18:17:19,649 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceEntrant)
+2018-12-29 18:17:19,650 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceTry)
+2018-12-29 18:17:19,676 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceHire)
+2018-12-29 18:17:19,677 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceExtend)
+2018-12-29 18:17:19,678 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceRedeploy)
+2018-12-29 18:17:19,679 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceDismiss)
+2018-12-29 18:17:19,680 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceRetire)
+2018-12-29 18:17:19,681 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceFire)
+2018-12-29 18:17:19,682 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmResourceReHire)
+2018-12-29 18:17:19,748 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmScheduleShift)
+2018-12-29 18:17:19,748 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(HrmPaidLeaveAction)
+2018-12-29 18:17:19,751 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(CreateTraceDocument)
+2018-12-29 18:17:19,753 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowFnaInWorkflowNew)
+2018-12-29 18:17:19,753 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowFnaEffectNew)
+2018-12-29 18:17:19,754 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WorkflowFnaRejectNew)
+2018-12-29 18:17:19,754 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowEffectNew)
+2018-12-29 18:17:19,755 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowFreezeNew)
+2018-12-29 18:17:19,756 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowReleaseFreezeNew)
+2018-12-29 18:17:19,756 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowReleaseNew)
+2018-12-29 18:17:19,757 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaBorrowReverseNew)
+2018-12-29 18:17:19,758 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaChangeFreezeNew)
+2018-12-29 18:17:19,758 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaChangeEffectNew)
+2018-12-29 18:17:19,759 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaChangeRejectNew)
+2018-12-29 18:17:19,759 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaShareFreezeNew)
+2018-12-29 18:17:19,760 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaShareEffectNew)
+2018-12-29 18:17:19,760 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaShareRejectNew)
+2018-12-29 18:17:19,761 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceEffectNew)
+2018-12-29 18:17:19,762 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceFreezeNew)
+2018-12-29 18:17:19,762 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceReleaseFreezeNew)
+2018-12-29 18:17:19,763 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceReleaseNew)
+2018-12-29 18:17:19,763 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(FnaAdvanceReverseNew)
+2018-12-29 18:17:19,765 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(WFMeetingAction)
+2018-12-29 18:17:19,768 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptApplyAction)
+2018-12-29 18:17:19,770 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptFetchAction)
+2018-12-29 18:17:19,774 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptMoveAction)
+2018-12-29 18:17:19,776 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptLossAction)
+2018-12-29 18:17:19,779 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptDiscardAction)
+2018-12-29 18:17:19,783 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptLendAction)
+2018-12-29 18:17:19,788 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptBackAction)
+2018-12-29 18:17:19,812 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptMendAction)
+2018-12-29 18:17:19,813 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptFrozenumAction)
+2018-12-29 18:17:19,814 ERROR [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化Action成功：(Mode4CptReleasenumAction)
+2018-12-29 18:17:19,814 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化浏览框缓存 ......
+2018-12-29 18:17:19,934 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() -   初始化HR缓存 ......
+2018-12-29 18:17:19,998 INFO  [Thread:Thread-24] weaver.servicefiles.BrowserXML.<init>() - BrowserXML init start ....
+2018-12-29 18:17:20,002 INFO  [Thread:Thread-24] weaver.servicefiles.BrowserXML.<init>() - BrowserXML init end ....
+2018-12-29 18:17:20,008 INFO  [Thread:Thread-24] weaver.general.InitServiceXMLtoDB.initCache() - 初始化缓存结束......
+2018-12-29 18:17:20,053 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.deleteEML）
+2018-12-29 18:17:20,115 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.deleteEML）
+2018-12-29 18:17:20,115 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.AutoCountApplyNumTask）
+2018-12-29 18:17:20,116 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.AutoCountApplyNumTask）
+2018-12-29 18:17:20,117 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.Mode4CptCalculateDeprecationJob）
+2018-12-29 18:17:20,124 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.Mode4CptCalculateDeprecationJob）
+2018-12-29 18:17:20,125 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.CptLowInventoryRemindJob）
+2018-12-29 18:17:20,125 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.CptLowInventoryRemindJob）
+2018-12-29 18:17:20,125 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.Mode4CptDulldaysInventoryRemindJob）
+2018-12-29 18:17:20,126 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.Mode4CptDulldaysInventoryRemindJob）
+2018-12-29 18:17:20,126 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.Mode4CptHighInventoryRemindJob）
+2018-12-29 18:17:20,126 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.Mode4CptHighInventoryRemindJob）
+2018-12-29 18:17:20,126 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.Mode4CptLowInventoryRemindJob）
+2018-12-29 18:17:20,127 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.Mode4CptLowInventoryRemindJob）
+2018-12-29 18:17:20,127 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.HrmScheduleSignImport）
+2018-12-29 18:17:20,127 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.HrmScheduleSignImport）
+2018-12-29 18:17:20,127 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.KQJ）
+2018-12-29 18:17:20,128 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.KQJ）
+2018-12-29 18:17:20,128 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.shanghaitest）
+2018-12-29 18:17:20,128 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.shanghaitest）
+2018-12-29 18:17:20,128 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.nianjiajisuan）
+2018-12-29 18:17:20,129 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.nianjiajisuan）
+2018-12-29 18:17:20,129 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.QuartzTestJob_first）
+2018-12-29 18:17:20,144 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.QuartzTestJob_first）
+2018-12-29 18:17:20,145 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 缓存（schedule.CronJob_1）
+2018-12-29 18:17:20,145 ERROR [Thread:Thread-24] weaver.interfaces.schedule.ScheduleManage.start() - Schedule Cron Job 加载成功（schedule.CronJob_1）
+2018-12-29 18:19:00,085 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.execute() - =============================run com.customization.newKQ.CronJob_1 job...
+2018-12-29 18:19:00,260 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.execute() - 总条数 : 213408  页数：213
+2018-12-29 18:19:00,261 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.execute() - begrow : 1 endrow:1000
+2018-12-29 18:20:49,164 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.Allcomp() - ******************************异常关闭了考勤机conn连接*************************************************
+2018-12-29 18:20:49,170 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.execute() - begrow : 1001 endrow:1999
+2018-12-29 18:22:42,003 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.Allcomp() - ******************************异常关闭了考勤机conn连接*************************************************
+2018-12-29 18:22:42,007 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.execute() - begrow : 2000 endrow:2998
+2018-12-29 18:24:30,085 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.Allcomp() - ******************************异常关闭了考勤机conn连接*************************************************
+2018-12-29 18:24:30,089 INFO  [Thread:DefaultQuartzScheduler_Worker-1] com.customization.newKQ.CronJob_1.execute() - begrow : 2999 endrow:3997
+2018-12-29 18:25:00,107 INFO  [Thread:DefaultQuartzScheduler_Worker-4] com.customization.newKQ.CronJob_1.execute() - =============================run com.customization.newKQ.CronJob_1 job...
+2018-12-29 18:25:00,171 INFO  [Thread:DefaultQuartzScheduler_Worker-4] com.customization.newKQ.CronJob_1.execute() - 总条数 : 213415  页数：213
+2018-12-29 18:25:00,171 INFO  [Thread:DefaultQuartzScheduler_Worker-4] com.customization.newKQ.CronJob_1.execute() - begrow : 1 endrow:1000
